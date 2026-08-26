@@ -1,0 +1,4 @@
+[package]
+name = "hex_dump_ce5b0b"
+version = "0.0.0"
+edition = "2021"
